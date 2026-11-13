@@ -1,0 +1,18 @@
+# Auto Number Verification
+# https://github.com/privacy-protection-tools/anti-AD/issues/547
+# https://github.com/privacy-protection-tools/anti-AD/issues/866
+# https://github.com/privacy-protection-tools/anti-AD/issues/971
+
+auth.wosms.cn
+config.cmpassport.com
+enrichgw.10010.com
+hmrz.wo.cn
+id.mail.wo.cn
+id6.me
+log.cmpassport.com
+log1.cmpassport.com
+mdn.open.wo.cn
+mob.com
+nishub1.10010.com
+opencloud.wostore.cn
+ye.dun.163yun.com

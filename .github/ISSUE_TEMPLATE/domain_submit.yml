@@ -1,0 +1,47 @@
+name: 新增拦截
+description: "我发现了需要拦截的域名"
+title: "[新增拦截]"
+labels: ["新增"]
+body:
+  - type: checkboxes
+    attributes:
+      label: 注意事项
+      description: 请检查勾选以下事项，无效 issue 可能被关闭
+      options:
+        - label: 我将提供清晰明确的问题描述
+          required: true
+        - label: 我做过简单测试，确认拦截相关域名后没有出现明显问题
+          required: false
+
+  - type: input
+    attributes:
+      label: 域名
+      description: 请提供希望拦截的域名（列表）
+      placeholder: ad.example.com
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: 拦截类型
+      options:
+        - 请选择
+        - 疑似广告
+        - 疑似数据收集
+        - 其他（请在描述中说明）
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 问题描述
+      description: 该域名出现的场景，为什么应当被拦截，希望达成的效果等
+      value: |
+          1. 涉及的平台/软件/功能/场景：
+
+          2. 拦截理由：
+
+          3. 截图、附件等（如有）：
+    validations:
+      required: true
+
